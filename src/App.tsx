@@ -230,29 +230,31 @@ export default function App() {
       </div>
 
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center backdrop-blur-md border-b border-white/5">
-        <div className="flex items-center gap-2 group cursor-pointer">
-          <div className="flex items-center gap-3">
-             <div className="text-2xl font-black tracking-tighter text-[#F58220]">MAAL</div>
-             <div className="h-6 w-px bg-white/20" />
-             <div className="text-[10px] leading-tight font-medium opacity-70 max-w-[120px] hidden sm:block">
-               Center for Creativity, Entrepreneurship & Innovation
-             </div>
+      <nav className="fixed top-0 left-0 right-0 z-50 py-4 backdrop-blur-md border-b border-white/5">
+        <div className="container mx-auto max-w-6xl px-6 flex justify-between items-center">
+          <div className="flex items-center gap-2 group cursor-pointer">
+            <div className="flex items-center gap-2 sm:gap-3">
+               <div className="text-xl sm:text-2xl font-black tracking-tighter text-[#F58220]">MAAL</div>
+               <div className="h-6 w-px bg-white/20" />
+               <div className="text-[8px] sm:text-[10px] leading-tight font-medium opacity-70 max-w-[80px] sm:max-w-[120px]">
+                 Center for Creativity, Entrepreneurship & Innovation
+               </div>
+            </div>
           </div>
-        </div>
-        
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">
-          <a href="#hero" className="hover:text-[#F58220] transition-colors">Portal</a>
-          <a href="#resources" className="hover:text-[#F58220] transition-colors">Resources</a>
-          <button onClick={handleClaimLink} className="hover:text-[#F58220] transition-colors text-orange-500 font-bold">Claim NFT</button>
-        </div>
+          
+          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">
+            <a href="#hero" className="hover:text-[#F58220] transition-colors">Portal</a>
+            <a href="#resources" className="hover:text-[#F58220] transition-colors">Resources</a>
+            <button onClick={handleClaimLink} className="hover:text-[#F58220] transition-colors text-orange-500 font-bold">Claim NFT</button>
+          </div>
 
-        <button 
-          onClick={handleClaimLink}
-          className="px-5 py-2 rounded-full border border-orange-500/50 text-orange-400 text-sm font-bold flex items-center gap-2 transition-all hover:bg-orange-500/10 shadow-[0_0_15px_rgba(245,130,32,0.2)]"
-        >
-          <Award className="w-4 h-4" /> Claim NFT
-        </button>
+          <button 
+            onClick={handleClaimLink}
+            className="px-3 sm:px-5 py-2 rounded-full border-0 sm:border border-orange-500/50 text-orange-400 text-xs sm:text-sm font-bold flex items-center gap-1.5 sm:gap-2 transition-all hover:bg-orange-500/10 shadow-none sm:shadow-[0_0_15px_rgba(245,130,32,0.2)] whitespace-nowrap"
+          >
+            <Award className="w-3.5 h-3.5 sm:w-4 h-4" /> Claim NFT
+          </button>
+        </div>
       </nav>
 
       {/* Hero Section */}
