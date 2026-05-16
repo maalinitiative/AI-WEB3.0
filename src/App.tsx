@@ -376,7 +376,7 @@ export default function App() {
                 <h3 className="font-bold mb-2">Workshop Slides</h3>
                 <p className="text-xs text-white/40 mb-6 flex-grow">Download the full 17-page presentation on AI, Web3, and future digital business models.</p>
                 <a 
-                  href="/resource/W1AI+WEB3.0.pdf" 
+                  href="/resource/docs/W1AI+WEB3.0.pdf" 
                   download 
                   className="w-full py-3 bg-white/5 border border-white/10 rounded-xl font-bold text-sm hover:bg-orange-500 hover:text-black transition-all flex items-center justify-center gap-2 mb-4"
                 >
