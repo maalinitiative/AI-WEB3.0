@@ -1,0 +1,6 @@
+{
+  "name": "MAAL AI + WEB3 Workshop",
+  "description": "Workshop by Osman A. Mohamed on AI and Web3 for digital businesses at MU Taleh Campus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
