@@ -344,7 +344,7 @@ export default function App() {
                  <div className="absolute inset-0 bg-gradient-to-br from-[#F58220]/20 to-blue-600/20 rounded-3xl blur-2xl group-hover:scale-110 transition-transform" />
                  <div className="relative h-full w-full bg-[#111] rounded-3xl border border-white/10 overflow-hidden shadow-2xl">
                     <img 
-                      src="/resource/osman.jpeg" 
+                      src="/osman.jpeg" 
                       className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105" 
                       alt="Osman A. Mohamed" 
                       referrerPolicy="no-referrer"
@@ -376,7 +376,7 @@ export default function App() {
                 <h3 className="font-bold mb-2">Workshop Slides</h3>
                 <p className="text-xs text-white/40 mb-6 flex-grow">Download the full 17-page presentation on AI, Web3, and future digital business models.</p>
                 <a 
-                  href="/resource/docs/W1AI+WEB3.0.pdf" 
+                  href="/Workshop_Slides.pdf" 
                   download 
                   className="w-full py-3 bg-white/5 border border-white/10 rounded-xl font-bold text-sm hover:bg-orange-500 hover:text-black transition-all flex items-center justify-center gap-2 mb-4"
                 >
@@ -461,13 +461,13 @@ export default function App() {
                 name: "Osman A. Mohamed", 
                 role: "Founder of Maal Initiative & Web3 Mentor", 
                 desc: "Visionary leader inspiring the next generation of Somali digital builders through AI education and Web3 advocacy.",
-                img: "/resource/osman.jpeg"
+                img: "/osman.jpeg"
               },
               { 
                 name: "Abdisatar Arabow", 
                 role: "Director of Center for Creativity", 
                 desc: "Leading entrepreneurial innovation and technical excellence at the MU Campus.",
-                img: "/resource/arabow.png"
+                img: "/arabow.png"
               }
             ].map((speaker, i) => (
               <GlassCard key={i} className="flex flex-col md:flex-row gap-8 items-center text-center md:text-left hover:border-orange-500/30 transition-all p-10">
